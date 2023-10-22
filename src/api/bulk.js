@@ -21,8 +21,7 @@ export default {
     let reqParam = new Array();
     let bulkFormat = {
       index : {
-        _index : indexName,
-        _type : typeName
+        _index : indexName
       }
     };
     bulkFormat = JSON.stringify(bulkFormat)
